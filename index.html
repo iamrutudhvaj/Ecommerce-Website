@@ -22,7 +22,7 @@
                     <img src="images/31.png" width="125px">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
                         <li><a href="">Home</a></li>
                         <li><a href="">Products</a></li>
                         <li><a href="">About</a></li>
@@ -31,6 +31,7 @@
                     </ul>
                 </nav>
                 <img src="images/43.png" width="50px" height="30px">
+                <img src="images/50.png" class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
@@ -70,53 +71,297 @@
         <div class="row">
             <div class="col-4">
                 <img src="images/Printed Men Round Neck Reversible White T-Shirt.jpeg" alt="">
-                <h4>Printed Men Round Neck <br>Reversible White T-Shirt</h4>
-                <p>$50.00</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+                <h4> White T-Shirt</h4>
+                <div class="rating">
+                    <p>$50.00</p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
             </div>
 
             <div class="col-4">
                 <img src="images/Sneakers For Men.jpeg" alt="">
-                <h4>Running Shoes For<br> Men Casuals For Men </h4>
+                <h4>Running Shoes </h4>
                 <p>$100.00</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
             </div>
 
             <div class="col-4">
                 <img src="images/81.jpeg" alt="">
-                <h4>LS2948 Functioning Smiley Black
-                    <bR> Quartz Analog Watch - For Men</h4>
+                <h4>Black Watch - For Men</h4>
                 <p>$80.00</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
             <div class="col-4">
                 <img src="images/91.jpeg" alt="">
-                <h4>LS2948 Functioning Smiley Black
-                    <bR> Quartz Analog Watch - For Men</h4>
+                <h4>Black-paint</h4>
                 <p>$50.00</p>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
 
             </div>
 
         </div>
-    </div>
 
+        <h2 class="title">Latest Products</h2>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/101.jpeg" alt="">
+                <h4>White T-Shirt</h4>
+                <p>$50.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="images/113.jpeg" alt="">
+                <h4>Kids Wears</h4>
+                <p>$100.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="images/121.jpg" alt="">
+                <h4>3 Different Watch
+                </h4>
+                <p>$100.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/132.jpg" alt="">
+                <h4>Running Shoes</h4>
+                <p>$50.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/141.jpg" alt="">
+                <h4>Sendal For-Men</h4>
+                <p>$50.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="images/142.jpg" alt="">
+                <h4>Samsung AC</h4>
+                <p>$400.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="images/143.jpg" alt="">
+                <h4>One Pluse Smart-TV 108cm
+                </h4>
+                <p>$500.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/144.jpg" alt="">
+                <h4>Ibell Home theater 5.1 </h4>
+                <p>$50.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--------------------------------offer----------------------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/146.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore</p>
+                    <h1>Garmin</h1>
+                    <small>
+                        Garmin Vivoactive 3 Music, GPS Smartwatch with Music Storage and Built-in Sports Apps, Black.<br>
+                    </small>
+                    <a href="" class="btn">Buy Now  &#x2192;</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-------------------------testimonial---------------------------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum exercitationem ipsum delectus quis eos natus.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <img src="images/10.jpg" alt="">
+                    <h3>Parker Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum exercitationem ipsum delectus quis eos natus.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <img src="images/11.jpg" alt="">
+                    <h3>Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------brands------------------------------ -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/45.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/46.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/47.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/48.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/51.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------footer---------------------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android And Ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <!-- <img src="images/55.png"> -->
+                        <img src="images/158.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/31.png" alt="" width="200px">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure And <br>Benefits Of Sports Accessible TO The Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>FaceBook</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Made By Chovatiya Shashwat.</p>
+        </div>
+    </div>
+    <!--------------------------js for toggle menu------------------------>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight == "0px";
+            }
+        }
+    </script>
 
 
 
